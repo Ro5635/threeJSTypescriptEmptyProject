@@ -35,6 +35,4 @@ const animate = function () {
 // Init
 animate();
 
-console.log('Cake');
-
-
+console.log('Cake egg potato egg ');
