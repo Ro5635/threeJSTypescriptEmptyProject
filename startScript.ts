@@ -23,6 +23,21 @@ scene.add( cube );
 
 camera.position.z = 5;
 
+class Greeter {
+    greeting: string;
+    constructor(message: string) {
+        this.greeting = message;
+    }
+    greet() {
+        return "Hello, " + this.greeting;
+    }
+}
+
+let greeter = new Greeter("Mr Potato Head");
+
+// Demo
+console.log(greeter.greet());
+
 const animate = function () {
     requestAnimationFrame( animate );
 
@@ -34,5 +49,3 @@ const animate = function () {
 
 // Init
 animate();
-
-console.log('Cake egg potato egg ');
